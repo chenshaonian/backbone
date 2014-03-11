@@ -1,0 +1,33 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	
+</head>
+<body>
+<h1>
+	MY TASKS:
+</h1>
+<form id="addTask"action="">
+		<input class="title" placeholder="your new title" type="text"></input>
+		<input class="priority" type="text"></input>
+		<input type="submit" value="Add Task"></input>
+</form>
+
+<div id='taskdiv'>
+	<script id='taskTemplate'type="text/template">
+	<span><%=  title %></span> <button class="edit"> Edit</button> <button class="delete">Delete</button>
+	</script>
+</div>
+
+
+
+
+	<script src='js/jquery.js'></script>	
+	<script src='js/underscore.js'></script>
+	<script src='js/backbone.js'></script>		
+	<script src='js/main.js'></script>
+
+
+
+</body>
+</html>
