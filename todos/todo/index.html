@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>
+			todos
+		</title>
+	<script src='../../js/jquery.js'></script>	
+	<script src='../../js/underscore.js'></script>
+	<script src='../../js/backbone.js'></script>		
+	<script src="./todos.js"></script>
+		<link rel="stylesheet" href="./todos.css">
+	</head>
+	<body>
+		<div class="mainDiv">
+			<div id="inputDiv">
+				<form id="inputForm" action="">
+					<input class="inputText" placeholder="what you wanna do..."type="text"></input>
+					<input class="inputSubmit" type="submit" value="OK"></input>
+				</form>
+			</div>
+			<div id="listDiv">
+				<script id='taskTemplate' type="text/template">
+					<span><%=  title %></span> <button class="edit"> Edit</button> <button class="delete">Delete</button>
+				</script>
+	
+			</div>
+		</div>
+
+
+
+	</body>
+
+
+</html>

@@ -1,0 +1,25 @@
+.mainDiv{
+	margin: 0 auto;
+	width: 300px;
+	height: 600px;
+	background-color: #ccc;
+}
+#inputDiv{
+	width: 100%;
+	height: 50px;
+	margin-top: 30px;
+}
+
+.inputText{
+	display: inline-block;
+	height: 100%;
+	width: 78%;
+}
+.inputSubmit{
+	display: inline-block;
+	height: 100%;
+	width: 19%;
+}
+input{
+	margin: 0;
+}
